@@ -5,11 +5,11 @@ for Meteor. This only runs in `Server` code as it depends on a `node` package.
 
 ## Summary
 
-`Date.now()`` will only give you accuracy in milliseconds. This package calls
+`Date.now()` will only give you accuracy in milliseconds. This package calls
 `gettimeofday(2)` to get the time in microseconds and provides it in a few
 different formats. The same warning from that function applies:
 _The resolution of the system clock is hardware dependent, and the time may
-be updated continuously or in ``ticks.''_
+be updated continuously or in `ticks`._
 
 ## Installation
 
