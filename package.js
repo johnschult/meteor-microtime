@@ -15,7 +15,7 @@ Package.onUse(function(api) {
     'microtime': '2.0.0'
   });
   api.versionsFrom('1.1.0.3');
-  api.addFiles('microtime.js');
+  api.addFiles('microtime.js', ['server']);
   api.export('Microtime', ['server']);
 });
 
